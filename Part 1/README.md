@@ -1,0 +1,27 @@
+|colName|Description|  
+|---|---|---|  
+|_type|string|  
+|_event_timing|int|  
+|_seq|int| 
+|torque_available_motoring|float|  
+|updated|bool|  
+|torque_available_regen|float|  
+|tenant|string|  
+|_type|string|  
+|fleet|array|  
+|car_ownership_id|int|  
+|eventTimestamp|timestamp|  
+|temperature_IGBT_A|float|  
+|temperature_IGBT_B|float|  
+|temperature_IGBT_C|float|  
+|motor_temperature|string|  
+|torque_achieved|string|  
+|fault_properties|complex<JSON>|  
+  |fault_status|bool|  
+  |fault_type|array|  
+|charging_properties|complex<JSON>|  
+  |charge_time|bool|  
+  |total_charge_energy_added|array|  
+  |charge_location|spatial|  
+|_subtype|array|  
+|VIN|string|  
