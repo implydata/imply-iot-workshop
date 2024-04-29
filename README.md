@@ -9,7 +9,7 @@ Learn how to connect Imply Polaris to AWS IoT Core over MQTT and stream vehicle 
 
 Follow the links to access the different sections of the course:
 
-### [Part 1](/part1/README.md)
+### [Part 1](/Part1/README.md)
 
 Provides an overview to the course, introduces the several building blocks of generating and streaming IoT telemetry/sensor data.  It gets you to setup the devices and stream the data through Kinesis, ingest to Polaris and finally visualize the data solving some key challenges in toy's IoT real time streaming world.
 
