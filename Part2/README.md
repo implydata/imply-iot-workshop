@@ -6,7 +6,7 @@
 
 ## Device Sensor Schema
 
-**evSensor**
+**evSensor**  [Sample Payload](/Part2/evSensor.json) 
 
 colName| dataType| description  
 |---|---|---|
