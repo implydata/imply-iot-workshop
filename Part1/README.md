@@ -42,7 +42,7 @@ We at Imply have found solutions to some of the *Challenges* through Apache Drui
 
  ## Building Blocks for our Workshop today
 
-![Alt text]((https://github.com/implydata/imply-iot-workshop/blob/main/Part1/IoT%20Architectural%20building%20blocks.png) "Optional Title")
+![Architechture](https://github.com/implydata/imply-iot-workshop/blob/main/Part1/IoT%20Architectural%20building%20blocks.png "Architecture, Building Blocks")
 
 *   **AWS IoT Data Simulator** (Simulates several virtual connected devices without having to configure and manage physical devices)
 *   **AWS IoT Core** (Fully Managed MQTT message broker which helps build IoT architecture that are cost effective, relaible and optimized for scale)
