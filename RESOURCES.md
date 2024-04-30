@@ -22,3 +22,8 @@ Here are all the links and resources used within the workshop, as well as some o
 ## Other Material to help with workshop
 -  [Simulate virtual connected devices](https://docs.aws.amazon.com/solutions/latest/iot-device-simulator/solution-overview.html "Simulate virtual connected devices")
 -  [AWS IoT Core, MQTT test Client (Sample screen)](https://github.com/implydata/imply-iot-workshop/blob/main/Part2/MQTTtestclient.png "MQTT test Client sample screen")
+
+
+***
+*Quick links :*
+[Home](/README.md) - [Part 1](/Part1/README.md) - [Part 2](/Part2/README.md) - [Part 3](/Part3/README.md) - [Part 4](/Part4/README.md)
