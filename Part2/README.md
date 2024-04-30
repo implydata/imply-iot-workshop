@@ -13,10 +13,14 @@
 
 3.  ### Kinesis:
    
-    Kinesis streams the data simulated by IoT data Simulator and routed through IoT Core into Imply Polaris. 
+    Kinesis streams the data simulated by IoT data Simulator and routed through IoT Core into Imply Polaris.
 
 
-### Device Sensor Schema
+## Setup Demo of IoT Device Simulator + AWS IoT Core + Kinesis
+
+Step by Step [instructions to setup](https://github.com/implydata/imply-iot-workshop/blob/main/Part2/IoT%20Events%20Workshop%20_%20End-to-End%20Setup.pdf) IoT Device Simulator + AWS IoT Core + Kinesis
+
+#### Device Sensor Schema
 
 **evSensor**  [Sample Payload](/Part2/evSensor.json) 
 
