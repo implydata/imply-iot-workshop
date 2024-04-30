@@ -1,9 +1,19 @@
-# Data Simulator + AWS IoT Core + Kinesis 
+# IoT Data Simulator + AWS IoT Core + Kinesis 
 
 
 ![AWS Stack + Imply Polaris](https://github.com/implydata/imply-iot-workshop/blob/main/Part2/Iot%2BImply.png "AWS Stack + Imply Polaris")
 
+1.  ### IoT Data Simulator:
 
+    The IoT Data Simulator from AWS simulates real life sensor data across several 100 devices based on the schema user provides. For this workshop, device data has been created for few regions and cases of device anamolies are simulated to support the case.
+
+2.  ### AWS IoT Core:
+   
+    AWS IoT Core lets you connect the messages from sensor devices and routes these millions of events to AWS streaming services.  The AWS IoT MQTT client is leveraged to subscribe to messages and view them stremaing in the IoT Core management console.  
+
+3.  ### Kinesis:
+   
+    Kinesis streams the data simulated by IoT data Simulator and routed through IoT Core into Imply Polaris. 
 
 ## Device Sensor Schema
 
