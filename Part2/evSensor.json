@@ -1,0 +1,176 @@
+{
+  "name": "evDataUser",
+  "topic": "simulations/evsensor",
+  "payload": [
+    {
+      "name": "_type",
+      "min": 5,
+      "static": false,
+      "type": "string",
+      "max": 10
+    },
+    {
+      "name": "_event_timing",
+      "min": 6,
+      "type": "int",
+      "max": 10
+    },
+    {
+      "name": "_seq",
+      "min": 200000,
+      "type": "int",
+      "max": 500000
+    },
+    {
+      "name": "torque_available_motoring",
+      "min": 0,
+      "type": "float",
+      "max": 30,
+      "precision": 5
+    },
+    {
+      "name": "updated",
+      "type": "bool"
+    },
+    {
+      "name": "torque_available_regen",
+      "min": 0,
+      "type": "float",
+      "max": 100,
+      "precision": 5
+    },
+    {
+      "name": "tenant",
+      "default": "rivian",
+      "min": 1,
+      "static": false,
+      "type": "string",
+      "max": 5
+    },
+    {
+      "name": "VIN",
+      "charSet": "ABCDEFGHILJKLMNOPQRSTUVWXYZ0123456789",
+      "length": 17,
+      "static": false,
+      "type": "id"
+    },
+    {
+      "name": "fleet",
+      "arr": [
+        "Fleet Truck",
+        "Fleet Van",
+        "Fleet Car",
+        "Passenger Truck",
+        "Passenger Van",
+        "Passenger Car"
+      ],
+      "static": false,
+      "type": "pickOne"
+    },
+    {
+      "name": "car_ownership_id",
+      "default": "",
+      "min": 100000001,
+      "type": "int",
+      "max": 999999999
+    },
+    {
+      "name": "eventTimestamp",
+      "type": "timestamp",
+      "tsformat": "unix"
+    },
+    {
+      "name": "temperature_IGBT_A",
+      "min": 0,
+      "type": "float",
+      "max": 150,
+      "precision": 0.01
+    },
+    {
+      "name": "temperature_IGBT_B",
+      "min": 0,
+      "type": "float",
+      "max": 150,
+      "precision": 0.01
+    },
+    {
+      "name": "temperature_IGBT_C",
+      "min": 0,
+      "type": "float",
+      "max": 150,
+      "precision": 0.01
+    },
+    {
+      "name": "motor_temperature",
+      "min": 0,
+      "type": "float",
+      "max": 150,
+      "precision": 0.01
+    },
+    {
+      "name": "torque_achieved",
+      "min": 100,
+      "type": "int",
+      "max": 800
+    },
+    {
+      "name": "_subtype",
+      "arr": [
+        "\"inverter_rear_left\"",
+        "\" inverter_rear_right\"",
+        "\" inverter_front_left\"",
+        "\" inverter_front_right\""
+      ],
+      "static": false,
+      "type": "pickOne"
+    },
+    {
+      "name": "fault_properties",
+      "type": "object",
+      "payload": [
+        {
+          "name": "fault_status",
+          "type": "bool"
+        },
+        {
+          "name": "fault_type",
+          "arr": [
+            "fault_1",
+            " fault_2",
+            " fault_3",
+            " fault_4",
+            " fault_5",
+            " fault_6"
+          ],
+          "static": false,
+          "type": "pickOne"
+        }
+      ]
+    },
+    {
+      "name": "charging_properties",
+      "type": "object",
+      "payload": [
+        {
+          "name": "charge_time",
+          "type": "timestamp",
+          "tsformat": "default"
+        },
+        {
+          "name": "total_charge_energy_added",
+          "min": 0,
+          "type": "float",
+          "max": 79,
+          "precision": 0.01
+        },
+        {
+          "name": "charge_location",
+          "type": "location",
+          "radius": 500000,
+          "lat": 0,
+          "long": 0
+        }
+      ]
+    }
+  ]
+}
