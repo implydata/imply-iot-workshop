@@ -1,6 +1,7 @@
 # Data Simulator + AWS IoT Core + Kinesis 
 
 
+![AWS Stack + Imply Polaris]((https://github.com/implydata/imply-iot-workshop/blob/main/Part2/Iot%2BImply.png) "AWS Stack + Imply Polaris")
 
 
 
@@ -35,3 +36,8 @@ colName| dataType| description
   |charge_location|spatial|Lat and Long data of charging|  
 |_subtype|array|subtype of sensor data emitted|  
 |VIN|string|vehicle VIN|  
+
+
+
+*Quick links :*
+[Home](/README.md) - [Part 1](/Part1/README.md) - [Part 2](/Part2/README.md) - [Part 3](/Part3/README.md) - [Part 4](/Part4/README.md)
