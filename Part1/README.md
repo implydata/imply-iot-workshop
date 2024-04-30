@@ -43,5 +43,8 @@ We at Imply have found solutions to some of the *Challenges* through Apache Drui
  ## Building Blocks for our Workshop today
 
 
-
+*   AWS IoT Data Simulator (Simulates several virtual connected devices without having to configure and manage physical devices)
+*   AWS IoT Core (Fully Managed MQTT message broker which helps build IoT architecture that are cost effective, relaible and optimized for scale)
+*   Kinesis (Serverless streaminig data service to ingest audio, video, application logs, clisckstream, etc.)
+*   Imply Polaris (Real time analytical database for fast query response and highly concurrent)
  
