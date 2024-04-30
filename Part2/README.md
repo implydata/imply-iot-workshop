@@ -1,7 +1,7 @@
 # Data Simulator + AWS IoT Core + Kinesis 
 
 
-![AWS Stack + Imply Polaris]((https://github.com/implydata/imply-iot-workshop/blob/main/Part2/Iot%2BImply.png) "AWS Stack + Imply Polaris")
+![AWS Stack + Imply Polaris](https://github.com/implydata/imply-iot-workshop/blob/main/Part2/Iot%2BImply.png "AWS Stack + Imply Polaris")
 
 
 
