@@ -1,4 +1,10 @@
-TBD
+# Imply Polaris to rescue
+
+### New IoT Architecture using Imply Polaris
+
+Imply Polaris can be used just as the Timeseries Store OR we can be used for both the Metadata Store and the Timeseries Store. We are focusing on providing transparency, specifically powering applications that are focused on transparency over the sensor data.
+
+![Imply Polaris](/Part3/NewIoTArchitecture.png "Imply Polaris IoT Architecture")
 
 
 ***
