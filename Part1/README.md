@@ -34,6 +34,8 @@ The more IoT enabled devices evolve, the need for analytics keeps growing. Some 
 
 We at Imply have found solutions to some of the *Challenges* through Apache Druid, in the following manner,
 
+*  **Anamoly Detection**, With Imply we have developed ability to enhance the dependability and safeguard the security of electric transportation networks, with a particular emphasis on the fleet management of electric vehicles (EVs). Utilizing extensive datasets, the research examines several facets of fault properties including, fault codes, motor temperature, charging stations, charging records, identified abnormalities, and other maintenance metrics. 
+
 *   **Onboarding** multi-tenants of the above mentioned use cases is the primary pitfall. In the case of fleet management, each sensor from various assets such as electric vehicles emit data which can be varied. For instance, some vehicles emit motor\_temperatures while some others don’t, but may emit another metric on IGBT temperatures. Apache Druid has ways to include such telemetry changes, sometimes on the fly without having to make schema changes (schema auto-discovery).
 
 *   **Scaling** these apps can pose a challenge in the long run with growing volume and complexity. When users want to view data at a granular level, to the most recent hour, in order to track assets such that business would not want assets to leave a particular radius, the app should be able to cater to the user. At the same time, when the leadership would like to view the monthly aggregated data for smart analysis on how the assets can be deployed in future, the same app should be able to provide that detail as well. Apache Druid has the ability to provide a granular view of customer data and rolled-up to attributes.
