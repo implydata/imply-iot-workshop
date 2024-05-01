@@ -26,7 +26,7 @@ In this section you will look at using Kinesis to stream data into Polaris. You 
 
 The last part of the workshop looks at how useful information can be extracted from the IoT data using analytics.  You will be introduced to the Analytic services available on the Imply Polaris and the insight this provides to help you resolve some of the challenges in the current day IoT world ([Part 1](/Part1/README.md))
 
-Timing of the day can be found in the [agenda](/Part1/AGENDA.md))
+Timing of the day can be found in the [agenda](/AGENDA.md))
 
 We've provided all the links used throughout the workshop as well as links to other resources [**here**](/RESOURCES.md) to help you explore a little more about Imply Polaris.
 ***
