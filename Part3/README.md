@@ -8,6 +8,10 @@ This architecture describes how to route data from your IoT devices to Imply via
 
 ![Imply Polaris](/Part3/NewIoTArchitecture.png "Imply Polaris IoT Architecture")
 
+## Steps to setup Imply Polaris (35-45 mins)
+Step by Step [instructions to setup](https://github.com/implydata/imply-iot-workshop/blob/main/Part3/Part3/IoT_Events_Workshop-ImplyPolaris.pdf) Imply Polaris
+
+
 
 ***
 *Quick links :*
