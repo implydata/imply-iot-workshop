@@ -1,5 +1,5 @@
 # Welcome to the Imply Polaris IoT Workshop
-IoT Workshop based on Apache Druid with AWS IoT Core and streaming through Kinesis 
+IoT Workshop based on Apache Druid with AWS IoT Core and streaming through Kinesis. In this workshop we will explain the benefits of sending IoT device data from AWS IoT Core to Imply’s real-time monitoring and observability platform. We will also walk you through a step-by-step approach to using AWS IoT Core and Imply to build a real-time analytics application to help operators and other end users monitor, diagnose, and resolve production issues. 
 
 # Real World IoT with Imply Polaris, a managed service of Apache Druid
 
